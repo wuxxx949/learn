@@ -1,5 +1,5 @@
 add2number <- function(a,b){
-  a <- -1 * abs(a)
+  a <- abs(a)
   b <- abs(b)
   a * b
 }
